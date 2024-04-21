@@ -1,7 +1,7 @@
 # DZHV Token Price API
 #### Uses deno kv & cron.
 ##### New data points every 15 minutes
-
+##### Logs 2 days worth of data
 
 
 ## url: //
