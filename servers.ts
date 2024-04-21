@@ -42,7 +42,6 @@ const Fetch = async () => {
       _data.push(value);
     }
     const firsttimestamp = _data[0] ? _data[0].timestamp : null;
-    console.log(firsttimestamp)
     // Remove the oldest entries to make space for the new one.
     if (_data.length >= MAX_ENTRIES) {
       await kv.delete(["tokens", firsttimestamp]);
