@@ -62,7 +62,7 @@ const Fetch = async () => {
     for await (const { value } of result) {
       _data.push(value);
     }
-    const firsttimestamp = _data[0].timestamp;
+    const firsttimestamp = _data[0] ?  _data[0].timestamp : null;
 
     // Remove the oldest entries to make space for the new one.
     if (_data.length >= MAX_ENTRIES) {
