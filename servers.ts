@@ -37,12 +37,12 @@ const Fetch = async () => {
     }
     const timestamp = Date.now();
     const _data = [];
-    const result = await kv.list({ prefix: ["full"] });
+    const result = await kv.list({ prefix: ["tokens"] });
     for await (const { value } of result) {
       _data.push(value);
     }
     const firsttimestamp = _data[0] ? _data[0].timestamp : null;
-
+    console.log(firsttimestamp)
     // Remove the oldest entries to make space for the new one.
     if (_data.length >= MAX_ENTRIES) {
       await kv.delete(["tokens", firsttimestamp]);
