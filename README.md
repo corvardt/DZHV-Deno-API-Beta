@@ -4,7 +4,7 @@
 ##### Keeps the last 2 days worth of data
 
 
-## url: //
+## url: https://funky-fox.deno.dev/
 
 ## endpoint: 
 - ##### /v1/tokens
