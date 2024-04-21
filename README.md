@@ -4,7 +4,7 @@
 
 
 
-## url: https://quick-frog-59.deno.dev
+## url: //
 
 ## endpoints: 
 - ##### /v1/tokens/{chain} (eth,arb,avax,base,bsc) => timestamp, token_price, token_liq, token_vol.
