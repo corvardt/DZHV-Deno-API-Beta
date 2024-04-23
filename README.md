@@ -8,4 +8,5 @@
 
 ## endpoint: 
 - ##### /v1/tokens
-![image](https://github.com/corvardt/DZHV-Deno-API-Beta/assets/124924375/ff4d53bf-5670-46a7-9ad6-2b675e45b9ed)
+![image](https://github.com/corvardt/DZHV-Deno-API-Beta/assets/124924375/ac6b347f-03bc-4fef-9979-f26e1c7777ea)
+
